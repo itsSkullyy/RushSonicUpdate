@@ -1,0 +1,41 @@
+{
+    "Groups": [
+        {
+            "Name": "Main",
+            "DisplayName": "Configuration",
+            "Elements": [
+                {
+                    "Name": "IncludeDir0",
+                    "DisplayName": "Jump Ball Options",
+                    "Description": [
+                        "Select Rush Jumpball or Default JumpBall"
+                    ],
+                    "Type": "SpinEnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "Rush"
+                }
+            ]
+        }
+    ],
+
+    "Enums": {
+    	"SpinEnum": [
+    		{
+    			"DisplayName": "Rush",
+    			"Value": "Rush",
+    			"Description": [
+    				"Jumpball in the style of Sonic Rush"
+    			]
+    		},
+    		{
+    			"DisplayName": "Default",
+    			"Value": "Default",
+    			"Description": [
+    				"Standard Jumpball in Sonic Unleashed"
+    			]
+    		},
+    	]
+    },
+    "IniFile": "mod.ini"
+}
