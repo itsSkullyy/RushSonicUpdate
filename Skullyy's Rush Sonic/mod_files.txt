@@ -1,0 +1,5 @@
+add +Sonic.ar.00
+add +Sonic.ar.01
+add +Sonic.arl
+
+add mod.ini
